@@ -1,0 +1,16 @@
+library(Seurat)
+library(ggplot2)
+library(patchwork)
+hspc_visual_knockout <- readRDS(file = "/home/scRNA_seq_data/RDS_files/hspc_knockout.rds")
+hspc_visual_knockout$groups <- sample(c("group1", "group2"), size = ncol(hspc_visual_knockout), replace = TRUE)
+features <- c("Trp53", "Cops5", "Gata6", "Itgb3", "Klf5")
+hspc_visual_knockout
+RidgePlot(hspc_visual_knockout, features = features, ncol = 2)
+VlnPlot(hspc_visual_knockout, features = features)
+DotPlot(hspc_visual_knockout, features = features) + RotatedAxis()
+DoHeatmap(subset(hspc_visual_knockout, downsample = 100), features = features, size = 3)
+VlnPlot(hspc_visual_knockout, features = "percent.mt")
+DoHeatmap(hspc_visual_knockout, features = VariableFeatures(hspc_visual_knockout)[1:100], cells = 1:500, size = 4, angle = 90) + 
+  NoLegend()
+baseplot <- DimPlot(hspc_visual_knockout, reduction = "umap")
+baseplot + labs(title = "Clustering of 2819 LT-HSCs")
