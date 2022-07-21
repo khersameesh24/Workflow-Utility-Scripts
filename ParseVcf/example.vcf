@@ -1,0 +1,685 @@
+##fileformat=VCFv4.1
+##FILTER=<ID=PASS,Description="All-filters-passed">
+##fileDate=20220131
+##source=strelka
+##source_version=2.9.5
+##startTime=Mon Jan 31 06:46:38 2022
+##cmdline=/opt/strelka/bin/configureStrelkaGermlineWorkflow.py --bam SNV_RS7_S5_A16_P3_O1_D2_BA_R3_tumor.final.bam --referenceFasta /sc1/groups/bfx-red/data/datainsights/reference_genome/human/hg38/hg38.fa --callMemMb=16 --exome --callRegions=10.split.final.bed.gz --runDir .
+##reference=file:///sc1/groups/bfx-red/data/datainsights/reference_genome/human/hg38/hg38.fa
+##contig=<ID=chr1,length=248956422>
+##contig=<ID=chr10,length=133797422>
+##contig=<ID=chr11,length=135086622>
+##contig=<ID=chr11_KI270721v1_random,length=100316>
+##contig=<ID=chr12,length=133275309>
+##contig=<ID=chr13,length=114364328>
+##contig=<ID=chr14,length=107043718>
+##contig=<ID=chr14_GL000009v2_random,length=201709>
+##contig=<ID=chr14_GL000225v1_random,length=211173>
+##contig=<ID=chr14_KI270722v1_random,length=194050>
+##contig=<ID=chr14_GL000194v1_random,length=191469>
+##contig=<ID=chr14_KI270723v1_random,length=38115>
+##contig=<ID=chr14_KI270724v1_random,length=39555>
+##contig=<ID=chr14_KI270725v1_random,length=172810>
+##contig=<ID=chr14_KI270726v1_random,length=43739>
+##contig=<ID=chr15,length=101991189>
+##contig=<ID=chr15_KI270727v1_random,length=448248>
+##contig=<ID=chr16,length=90338345>
+##contig=<ID=chr16_KI270728v1_random,length=1872759>
+##contig=<ID=chr17,length=83257441>
+##contig=<ID=chr17_GL000205v2_random,length=185591>
+##contig=<ID=chr17_KI270729v1_random,length=280839>
+##contig=<ID=chr17_KI270730v1_random,length=112551>
+##contig=<ID=chr18,length=80373285>
+##contig=<ID=chr19,length=58617616>
+##contig=<ID=chr1_KI270706v1_random,length=175055>
+##contig=<ID=chr1_KI270707v1_random,length=32032>
+##contig=<ID=chr1_KI270708v1_random,length=127682>
+##contig=<ID=chr1_KI270709v1_random,length=66860>
+##contig=<ID=chr1_KI270710v1_random,length=40176>
+##contig=<ID=chr1_KI270711v1_random,length=42210>
+##contig=<ID=chr1_KI270712v1_random,length=176043>
+##contig=<ID=chr1_KI270713v1_random,length=40745>
+##contig=<ID=chr1_KI270714v1_random,length=41717>
+##contig=<ID=chr2,length=242193529>
+##contig=<ID=chr20,length=64444167>
+##contig=<ID=chr21,length=46709983>
+##contig=<ID=chr22,length=50818468>
+##contig=<ID=chr22_KI270731v1_random,length=150754>
+##contig=<ID=chr22_KI270732v1_random,length=41543>
+##contig=<ID=chr22_KI270733v1_random,length=179772>
+##contig=<ID=chr22_KI270734v1_random,length=165050>
+##contig=<ID=chr22_KI270735v1_random,length=42811>
+##contig=<ID=chr22_KI270736v1_random,length=181920>
+##contig=<ID=chr22_KI270737v1_random,length=103838>
+##contig=<ID=chr22_KI270738v1_random,length=99375>
+##contig=<ID=chr22_KI270739v1_random,length=73985>
+##contig=<ID=chr2_KI270715v1_random,length=161471>
+##contig=<ID=chr2_KI270716v1_random,length=153799>
+##contig=<ID=chr3,length=198295559>
+##contig=<ID=chr3_GL000221v1_random,length=155397>
+##contig=<ID=chr4,length=190214555>
+##contig=<ID=chr4_GL000008v2_random,length=209709>
+##contig=<ID=chr5,length=181538259>
+##contig=<ID=chr5_GL000208v1_random,length=92689>
+##contig=<ID=chr6,length=170805979>
+##contig=<ID=chr7,length=159345973>
+##contig=<ID=chr8,length=145138636>
+##contig=<ID=chr9,length=138394717>
+##contig=<ID=chr9_KI270717v1_random,length=40062>
+##contig=<ID=chr9_KI270718v1_random,length=38054>
+##contig=<ID=chr9_KI270719v1_random,length=176845>
+##contig=<ID=chr9_KI270720v1_random,length=39050>
+##contig=<ID=chr1_KI270762v1_alt,length=354444>
+##contig=<ID=chr1_KI270766v1_alt,length=256271>
+##contig=<ID=chr1_KI270760v1_alt,length=109528>
+##contig=<ID=chr1_KI270765v1_alt,length=185285>
+##contig=<ID=chr1_GL383518v1_alt,length=182439>
+##contig=<ID=chr1_GL383519v1_alt,length=110268>
+##contig=<ID=chr1_GL383520v2_alt,length=366580>
+##contig=<ID=chr1_KI270764v1_alt,length=50258>
+##contig=<ID=chr1_KI270763v1_alt,length=911658>
+##contig=<ID=chr1_KI270759v1_alt,length=425601>
+##contig=<ID=chr1_KI270761v1_alt,length=165834>
+##contig=<ID=chr2_KI270770v1_alt,length=136240>
+##contig=<ID=chr2_KI270773v1_alt,length=70887>
+##contig=<ID=chr2_KI270774v1_alt,length=223625>
+##contig=<ID=chr2_KI270769v1_alt,length=120616>
+##contig=<ID=chr2_GL383521v1_alt,length=143390>
+##contig=<ID=chr2_KI270772v1_alt,length=133041>
+##contig=<ID=chr2_KI270775v1_alt,length=138019>
+##contig=<ID=chr2_KI270771v1_alt,length=110395>
+##contig=<ID=chr2_KI270768v1_alt,length=110099>
+##contig=<ID=chr2_GL582966v2_alt,length=96131>
+##contig=<ID=chr2_GL383522v1_alt,length=123821>
+##contig=<ID=chr2_KI270776v1_alt,length=174166>
+##contig=<ID=chr2_KI270767v1_alt,length=161578>
+##contig=<ID=chr3_JH636055v2_alt,length=173151>
+##contig=<ID=chr3_KI270783v1_alt,length=109187>
+##contig=<ID=chr3_KI270780v1_alt,length=224108>
+##contig=<ID=chr3_GL383526v1_alt,length=180671>
+##contig=<ID=chr3_KI270777v1_alt,length=173649>
+##contig=<ID=chr3_KI270778v1_alt,length=248252>
+##contig=<ID=chr3_KI270781v1_alt,length=113034>
+##contig=<ID=chr3_KI270779v1_alt,length=205312>
+##contig=<ID=chr3_KI270782v1_alt,length=162429>
+##contig=<ID=chr3_KI270784v1_alt,length=184404>
+##contig=<ID=chr4_KI270790v1_alt,length=220246>
+##contig=<ID=chr4_GL383528v1_alt,length=376187>
+##contig=<ID=chr4_KI270787v1_alt,length=111943>
+##contig=<ID=chr4_GL000257v2_alt,length=586476>
+##contig=<ID=chr4_KI270788v1_alt,length=158965>
+##contig=<ID=chr4_GL383527v1_alt,length=164536>
+##contig=<ID=chr4_KI270785v1_alt,length=119912>
+##contig=<ID=chr4_KI270789v1_alt,length=205944>
+##contig=<ID=chr4_KI270786v1_alt,length=244096>
+##contig=<ID=chr5_KI270793v1_alt,length=126136>
+##contig=<ID=chr5_KI270792v1_alt,length=179043>
+##contig=<ID=chr5_KI270791v1_alt,length=195710>
+##contig=<ID=chr5_GL383532v1_alt,length=82728>
+##contig=<ID=chr5_GL949742v1_alt,length=226852>
+##contig=<ID=chr5_KI270794v1_alt,length=164558>
+##contig=<ID=chr5_GL339449v2_alt,length=1612928>
+##contig=<ID=chr5_GL383530v1_alt,length=101241>
+##contig=<ID=chr5_KI270796v1_alt,length=172708>
+##contig=<ID=chr5_GL383531v1_alt,length=173459>
+##contig=<ID=chr5_KI270795v1_alt,length=131892>
+##contig=<ID=chr6_GL000250v2_alt,length=4672374>
+##contig=<ID=chr6_KI270800v1_alt,length=175808>
+##contig=<ID=chr6_KI270799v1_alt,length=152148>
+##contig=<ID=chr6_GL383533v1_alt,length=124736>
+##contig=<ID=chr6_KI270801v1_alt,length=870480>
+##contig=<ID=chr6_KI270802v1_alt,length=75005>
+##contig=<ID=chr6_KB021644v2_alt,length=185823>
+##contig=<ID=chr6_KI270797v1_alt,length=197536>
+##contig=<ID=chr6_KI270798v1_alt,length=271782>
+##contig=<ID=chr7_KI270804v1_alt,length=157952>
+##contig=<ID=chr7_KI270809v1_alt,length=209586>
+##contig=<ID=chr7_KI270806v1_alt,length=158166>
+##contig=<ID=chr7_GL383534v2_alt,length=119183>
+##contig=<ID=chr7_KI270803v1_alt,length=1111570>
+##contig=<ID=chr7_KI270808v1_alt,length=271455>
+##contig=<ID=chr7_KI270807v1_alt,length=126434>
+##contig=<ID=chr7_KI270805v1_alt,length=209988>
+##contig=<ID=chr8_KI270818v1_alt,length=145606>
+##contig=<ID=chr8_KI270812v1_alt,length=282736>
+##contig=<ID=chr8_KI270811v1_alt,length=292436>
+##contig=<ID=chr8_KI270821v1_alt,length=985506>
+##contig=<ID=chr8_KI270813v1_alt,length=300230>
+##contig=<ID=chr8_KI270822v1_alt,length=624492>
+##contig=<ID=chr8_KI270814v1_alt,length=141812>
+##contig=<ID=chr8_KI270810v1_alt,length=374415>
+##contig=<ID=chr8_KI270819v1_alt,length=133535>
+##contig=<ID=chr8_KI270820v1_alt,length=36640>
+##contig=<ID=chr8_KI270817v1_alt,length=158983>
+##contig=<ID=chr8_KI270816v1_alt,length=305841>
+##contig=<ID=chr8_KI270815v1_alt,length=132244>
+##contig=<ID=chr9_GL383539v1_alt,length=162988>
+##contig=<ID=chr9_GL383540v1_alt,length=71551>
+##contig=<ID=chr9_GL383541v1_alt,length=171286>
+##contig=<ID=chr9_GL383542v1_alt,length=60032>
+##contig=<ID=chr9_KI270823v1_alt,length=439082>
+##contig=<ID=chr10_GL383545v1_alt,length=179254>
+##contig=<ID=chr10_KI270824v1_alt,length=181496>
+##contig=<ID=chr10_GL383546v1_alt,length=309802>
+##contig=<ID=chr10_KI270825v1_alt,length=188315>
+##contig=<ID=chr11_KI270832v1_alt,length=210133>
+##contig=<ID=chr11_KI270830v1_alt,length=177092>
+##contig=<ID=chr11_KI270831v1_alt,length=296895>
+##contig=<ID=chr11_KI270829v1_alt,length=204059>
+##contig=<ID=chr11_GL383547v1_alt,length=154407>
+##contig=<ID=chr11_JH159136v1_alt,length=200998>
+##contig=<ID=chr11_JH159137v1_alt,length=191409>
+##contig=<ID=chr11_KI270827v1_alt,length=67707>
+##contig=<ID=chr11_KI270826v1_alt,length=186169>
+##contig=<ID=chr12_GL877875v1_alt,length=167313>
+##contig=<ID=chr12_GL877876v1_alt,length=408271>
+##contig=<ID=chr12_KI270837v1_alt,length=40090>
+##contig=<ID=chr12_GL383549v1_alt,length=120804>
+##contig=<ID=chr12_KI270835v1_alt,length=238139>
+##contig=<ID=chr12_GL383550v2_alt,length=169178>
+##contig=<ID=chr12_GL383552v1_alt,length=138655>
+##contig=<ID=chr12_GL383553v2_alt,length=152874>
+##contig=<ID=chr12_KI270834v1_alt,length=119498>
+##contig=<ID=chr12_GL383551v1_alt,length=184319>
+##contig=<ID=chr12_KI270833v1_alt,length=76061>
+##contig=<ID=chr12_KI270836v1_alt,length=56134>
+##contig=<ID=chr13_KI270840v1_alt,length=191684>
+##contig=<ID=chr13_KI270839v1_alt,length=180306>
+##contig=<ID=chr13_KI270843v1_alt,length=103832>
+##contig=<ID=chr13_KI270841v1_alt,length=169134>
+##contig=<ID=chr13_KI270838v1_alt,length=306913>
+##contig=<ID=chr13_KI270842v1_alt,length=37287>
+##contig=<ID=chr14_KI270844v1_alt,length=322166>
+##contig=<ID=chr14_KI270847v1_alt,length=1511111>
+##contig=<ID=chr14_KI270845v1_alt,length=180703>
+##contig=<ID=chr14_KI270846v1_alt,length=1351393>
+##contig=<ID=chr15_KI270852v1_alt,length=478999>
+##contig=<ID=chr15_KI270851v1_alt,length=263054>
+##contig=<ID=chr15_KI270848v1_alt,length=327382>
+##contig=<ID=chr15_GL383554v1_alt,length=296527>
+##contig=<ID=chr15_KI270849v1_alt,length=244917>
+##contig=<ID=chr15_GL383555v2_alt,length=388773>
+##contig=<ID=chr15_KI270850v1_alt,length=430880>
+##contig=<ID=chr16_KI270854v1_alt,length=134193>
+##contig=<ID=chr16_KI270856v1_alt,length=63982>
+##contig=<ID=chr16_KI270855v1_alt,length=232857>
+##contig=<ID=chr16_KI270853v1_alt,length=2659700>
+##contig=<ID=chr16_GL383556v1_alt,length=192462>
+##contig=<ID=chr16_GL383557v1_alt,length=89672>
+##contig=<ID=chr17_GL383563v3_alt,length=375691>
+##contig=<ID=chr17_KI270862v1_alt,length=391357>
+##contig=<ID=chr17_KI270861v1_alt,length=196688>
+##contig=<ID=chr17_KI270857v1_alt,length=2877074>
+##contig=<ID=chr17_JH159146v1_alt,length=278131>
+##contig=<ID=chr17_JH159147v1_alt,length=70345>
+##contig=<ID=chr17_GL383564v2_alt,length=133151>
+##contig=<ID=chr17_GL000258v2_alt,length=1821992>
+##contig=<ID=chr17_GL383565v1_alt,length=223995>
+##contig=<ID=chr17_KI270858v1_alt,length=235827>
+##contig=<ID=chr17_KI270859v1_alt,length=108763>
+##contig=<ID=chr17_GL383566v1_alt,length=90219>
+##contig=<ID=chr17_KI270860v1_alt,length=178921>
+##contig=<ID=chr18_KI270864v1_alt,length=111737>
+##contig=<ID=chr18_GL383567v1_alt,length=289831>
+##contig=<ID=chr18_GL383570v1_alt,length=164789>
+##contig=<ID=chr18_GL383571v1_alt,length=198278>
+##contig=<ID=chr18_GL383568v1_alt,length=104552>
+##contig=<ID=chr18_GL383569v1_alt,length=167950>
+##contig=<ID=chr18_GL383572v1_alt,length=159547>
+##contig=<ID=chr18_KI270863v1_alt,length=167999>
+##contig=<ID=chr19_KI270868v1_alt,length=61734>
+##contig=<ID=chr19_KI270865v1_alt,length=52969>
+##contig=<ID=chr19_GL383573v1_alt,length=385657>
+##contig=<ID=chr19_GL383575v2_alt,length=170222>
+##contig=<ID=chr19_GL383576v1_alt,length=188024>
+##contig=<ID=chr19_GL383574v1_alt,length=155864>
+##contig=<ID=chr19_KI270866v1_alt,length=43156>
+##contig=<ID=chr19_KI270867v1_alt,length=233762>
+##contig=<ID=chr19_GL949746v1_alt,length=987716>
+##contig=<ID=chr20_GL383577v2_alt,length=128386>
+##contig=<ID=chr20_KI270869v1_alt,length=118774>
+##contig=<ID=chr20_KI270871v1_alt,length=58661>
+##contig=<ID=chr20_KI270870v1_alt,length=183433>
+##contig=<ID=chr21_GL383578v2_alt,length=63917>
+##contig=<ID=chr21_KI270874v1_alt,length=166743>
+##contig=<ID=chr21_KI270873v1_alt,length=143900>
+##contig=<ID=chr21_GL383579v2_alt,length=201197>
+##contig=<ID=chr21_GL383580v2_alt,length=74653>
+##contig=<ID=chr21_GL383581v2_alt,length=116689>
+##contig=<ID=chr21_KI270872v1_alt,length=82692>
+##contig=<ID=chr22_KI270875v1_alt,length=259914>
+##contig=<ID=chr22_KI270878v1_alt,length=186262>
+##contig=<ID=chr22_KI270879v1_alt,length=304135>
+##contig=<ID=chr22_KI270876v1_alt,length=263666>
+##contig=<ID=chr22_KI270877v1_alt,length=101331>
+##contig=<ID=chr22_GL383583v2_alt,length=96924>
+##contig=<ID=chr22_GL383582v2_alt,length=162811>
+##contig=<ID=chrX_KI270880v1_alt,length=284869>
+##contig=<ID=chrX_KI270881v1_alt,length=144206>
+##contig=<ID=chr19_KI270882v1_alt,length=248807>
+##contig=<ID=chr19_KI270883v1_alt,length=170399>
+##contig=<ID=chr19_KI270884v1_alt,length=157053>
+##contig=<ID=chr19_KI270885v1_alt,length=171027>
+##contig=<ID=chr19_KI270886v1_alt,length=204239>
+##contig=<ID=chr19_KI270887v1_alt,length=209512>
+##contig=<ID=chr19_KI270888v1_alt,length=155532>
+##contig=<ID=chr19_KI270889v1_alt,length=170698>
+##contig=<ID=chr19_KI270890v1_alt,length=184499>
+##contig=<ID=chr19_KI270891v1_alt,length=170680>
+##contig=<ID=chr1_KI270892v1_alt,length=162212>
+##contig=<ID=chr2_KI270894v1_alt,length=214158>
+##contig=<ID=chr2_KI270893v1_alt,length=161218>
+##contig=<ID=chr3_KI270895v1_alt,length=162896>
+##contig=<ID=chr4_KI270896v1_alt,length=378547>
+##contig=<ID=chr5_KI270897v1_alt,length=1144418>
+##contig=<ID=chr5_KI270898v1_alt,length=130957>
+##contig=<ID=chr6_GL000251v2_alt,length=4795265>
+##contig=<ID=chr7_KI270899v1_alt,length=190869>
+##contig=<ID=chr8_KI270901v1_alt,length=136959>
+##contig=<ID=chr8_KI270900v1_alt,length=318687>
+##contig=<ID=chr11_KI270902v1_alt,length=106711>
+##contig=<ID=chr11_KI270903v1_alt,length=214625>
+##contig=<ID=chr12_KI270904v1_alt,length=572349>
+##contig=<ID=chr15_KI270906v1_alt,length=196384>
+##contig=<ID=chr15_KI270905v1_alt,length=5161414>
+##contig=<ID=chr17_KI270907v1_alt,length=137721>
+##contig=<ID=chr17_KI270910v1_alt,length=157099>
+##contig=<ID=chr17_KI270909v1_alt,length=325800>
+##contig=<ID=chr17_JH159148v1_alt,length=88070>
+##contig=<ID=chr17_KI270908v1_alt,length=1423190>
+##contig=<ID=chr18_KI270912v1_alt,length=174061>
+##contig=<ID=chr18_KI270911v1_alt,length=157710>
+##contig=<ID=chr19_GL949747v2_alt,length=729520>
+##contig=<ID=chr22_KB663609v1_alt,length=74013>
+##contig=<ID=chrX_KI270913v1_alt,length=274009>
+##contig=<ID=chr19_KI270914v1_alt,length=205194>
+##contig=<ID=chr19_KI270915v1_alt,length=170665>
+##contig=<ID=chr19_KI270916v1_alt,length=184516>
+##contig=<ID=chr19_KI270917v1_alt,length=190932>
+##contig=<ID=chr19_KI270918v1_alt,length=123111>
+##contig=<ID=chr19_KI270919v1_alt,length=170701>
+##contig=<ID=chr19_KI270920v1_alt,length=198005>
+##contig=<ID=chr19_KI270921v1_alt,length=282224>
+##contig=<ID=chr19_KI270922v1_alt,length=187935>
+##contig=<ID=chr19_KI270923v1_alt,length=189352>
+##contig=<ID=chr3_KI270924v1_alt,length=166540>
+##contig=<ID=chr4_KI270925v1_alt,length=555799>
+##contig=<ID=chr6_GL000252v2_alt,length=4604811>
+##contig=<ID=chr8_KI270926v1_alt,length=229282>
+##contig=<ID=chr11_KI270927v1_alt,length=218612>
+##contig=<ID=chr19_GL949748v2_alt,length=1064304>
+##contig=<ID=chr22_KI270928v1_alt,length=176103>
+##contig=<ID=chr19_KI270929v1_alt,length=186203>
+##contig=<ID=chr19_KI270930v1_alt,length=200773>
+##contig=<ID=chr19_KI270931v1_alt,length=170148>
+##contig=<ID=chr19_KI270932v1_alt,length=215732>
+##contig=<ID=chr19_KI270933v1_alt,length=170537>
+##contig=<ID=chr19_GL000209v2_alt,length=177381>
+##contig=<ID=chr3_KI270934v1_alt,length=163458>
+##contig=<ID=chr6_GL000253v2_alt,length=4677643>
+##contig=<ID=chr19_GL949749v2_alt,length=1091841>
+##contig=<ID=chr3_KI270935v1_alt,length=197351>
+##contig=<ID=chr6_GL000254v2_alt,length=4827813>
+##contig=<ID=chr19_GL949750v2_alt,length=1066390>
+##contig=<ID=chr3_KI270936v1_alt,length=164170>
+##contig=<ID=chr6_GL000255v2_alt,length=4606388>
+##contig=<ID=chr19_GL949751v2_alt,length=1002683>
+##contig=<ID=chr3_KI270937v1_alt,length=165607>
+##contig=<ID=chr6_GL000256v2_alt,length=4929269>
+##contig=<ID=chr19_GL949752v1_alt,length=987100>
+##contig=<ID=chr6_KI270758v1_alt,length=76752>
+##contig=<ID=chr19_GL949753v2_alt,length=796479>
+##contig=<ID=chr19_KI270938v1_alt,length=1066800>
+##contig=<ID=chrM,length=16569>
+##contig=<ID=chrUn_KI270302v1,length=2274>
+##contig=<ID=chrUn_KI270304v1,length=2165>
+##contig=<ID=chrUn_KI270303v1,length=1942>
+##contig=<ID=chrUn_KI270305v1,length=1472>
+##contig=<ID=chrUn_KI270322v1,length=21476>
+##contig=<ID=chrUn_KI270320v1,length=4416>
+##contig=<ID=chrUn_KI270310v1,length=1201>
+##contig=<ID=chrUn_KI270316v1,length=1444>
+##contig=<ID=chrUn_KI270315v1,length=2276>
+##contig=<ID=chrUn_KI270312v1,length=998>
+##contig=<ID=chrUn_KI270311v1,length=12399>
+##contig=<ID=chrUn_KI270317v1,length=37690>
+##contig=<ID=chrUn_KI270412v1,length=1179>
+##contig=<ID=chrUn_KI270411v1,length=2646>
+##contig=<ID=chrUn_KI270414v1,length=2489>
+##contig=<ID=chrUn_KI270419v1,length=1029>
+##contig=<ID=chrUn_KI270418v1,length=2145>
+##contig=<ID=chrUn_KI270420v1,length=2321>
+##contig=<ID=chrUn_KI270424v1,length=2140>
+##contig=<ID=chrUn_KI270417v1,length=2043>
+##contig=<ID=chrUn_KI270422v1,length=1445>
+##contig=<ID=chrUn_KI270423v1,length=981>
+##contig=<ID=chrUn_KI270425v1,length=1884>
+##contig=<ID=chrUn_KI270429v1,length=1361>
+##contig=<ID=chrUn_KI270442v1,length=392061>
+##contig=<ID=chrUn_KI270466v1,length=1233>
+##contig=<ID=chrUn_KI270465v1,length=1774>
+##contig=<ID=chrUn_KI270467v1,length=3920>
+##contig=<ID=chrUn_KI270435v1,length=92983>
+##contig=<ID=chrUn_KI270438v1,length=112505>
+##contig=<ID=chrUn_KI270468v1,length=4055>
+##contig=<ID=chrUn_KI270510v1,length=2415>
+##contig=<ID=chrUn_KI270509v1,length=2318>
+##contig=<ID=chrUn_KI270518v1,length=2186>
+##contig=<ID=chrUn_KI270508v1,length=1951>
+##contig=<ID=chrUn_KI270516v1,length=1300>
+##contig=<ID=chrUn_KI270512v1,length=22689>
+##contig=<ID=chrUn_KI270519v1,length=138126>
+##contig=<ID=chrUn_KI270522v1,length=5674>
+##contig=<ID=chrUn_KI270511v1,length=8127>
+##contig=<ID=chrUn_KI270515v1,length=6361>
+##contig=<ID=chrUn_KI270507v1,length=5353>
+##contig=<ID=chrUn_KI270517v1,length=3253>
+##contig=<ID=chrUn_KI270529v1,length=1899>
+##contig=<ID=chrUn_KI270528v1,length=2983>
+##contig=<ID=chrUn_KI270530v1,length=2168>
+##contig=<ID=chrUn_KI270539v1,length=993>
+##contig=<ID=chrUn_KI270538v1,length=91309>
+##contig=<ID=chrUn_KI270544v1,length=1202>
+##contig=<ID=chrUn_KI270548v1,length=1599>
+##contig=<ID=chrUn_KI270583v1,length=1400>
+##contig=<ID=chrUn_KI270587v1,length=2969>
+##contig=<ID=chrUn_KI270580v1,length=1553>
+##contig=<ID=chrUn_KI270581v1,length=7046>
+##contig=<ID=chrUn_KI270579v1,length=31033>
+##contig=<ID=chrUn_KI270589v1,length=44474>
+##contig=<ID=chrUn_KI270590v1,length=4685>
+##contig=<ID=chrUn_KI270584v1,length=4513>
+##contig=<ID=chrUn_KI270582v1,length=6504>
+##contig=<ID=chrUn_KI270588v1,length=6158>
+##contig=<ID=chrUn_KI270593v1,length=3041>
+##contig=<ID=chrUn_KI270591v1,length=5796>
+##contig=<ID=chrUn_KI270330v1,length=1652>
+##contig=<ID=chrUn_KI270329v1,length=1040>
+##contig=<ID=chrUn_KI270334v1,length=1368>
+##contig=<ID=chrUn_KI270333v1,length=2699>
+##contig=<ID=chrUn_KI270335v1,length=1048>
+##contig=<ID=chrUn_KI270338v1,length=1428>
+##contig=<ID=chrUn_KI270340v1,length=1428>
+##contig=<ID=chrUn_KI270336v1,length=1026>
+##contig=<ID=chrUn_KI270337v1,length=1121>
+##contig=<ID=chrUn_KI270363v1,length=1803>
+##contig=<ID=chrUn_KI270364v1,length=2855>
+##contig=<ID=chrUn_KI270362v1,length=3530>
+##contig=<ID=chrUn_KI270366v1,length=8320>
+##contig=<ID=chrUn_KI270378v1,length=1048>
+##contig=<ID=chrUn_KI270379v1,length=1045>
+##contig=<ID=chrUn_KI270389v1,length=1298>
+##contig=<ID=chrUn_KI270390v1,length=2387>
+##contig=<ID=chrUn_KI270387v1,length=1537>
+##contig=<ID=chrUn_KI270395v1,length=1143>
+##contig=<ID=chrUn_KI270396v1,length=1880>
+##contig=<ID=chrUn_KI270388v1,length=1216>
+##contig=<ID=chrUn_KI270394v1,length=970>
+##contig=<ID=chrUn_KI270386v1,length=1788>
+##contig=<ID=chrUn_KI270391v1,length=1484>
+##contig=<ID=chrUn_KI270383v1,length=1750>
+##contig=<ID=chrUn_KI270393v1,length=1308>
+##contig=<ID=chrUn_KI270384v1,length=1658>
+##contig=<ID=chrUn_KI270392v1,length=971>
+##contig=<ID=chrUn_KI270381v1,length=1930>
+##contig=<ID=chrUn_KI270385v1,length=990>
+##contig=<ID=chrUn_KI270382v1,length=4215>
+##contig=<ID=chrUn_KI270376v1,length=1136>
+##contig=<ID=chrUn_KI270374v1,length=2656>
+##contig=<ID=chrUn_KI270372v1,length=1650>
+##contig=<ID=chrUn_KI270373v1,length=1451>
+##contig=<ID=chrUn_KI270375v1,length=2378>
+##contig=<ID=chrUn_KI270371v1,length=2805>
+##contig=<ID=chrUn_KI270448v1,length=7992>
+##contig=<ID=chrUn_KI270521v1,length=7642>
+##contig=<ID=chrUn_GL000195v1,length=182896>
+##contig=<ID=chrUn_GL000219v1,length=179198>
+##contig=<ID=chrUn_GL000220v1,length=161802>
+##contig=<ID=chrUn_GL000224v1,length=179693>
+##contig=<ID=chrUn_KI270741v1,length=157432>
+##contig=<ID=chrUn_GL000226v1,length=15008>
+##contig=<ID=chrUn_GL000213v1,length=164239>
+##contig=<ID=chrUn_KI270743v1,length=210658>
+##contig=<ID=chrUn_KI270744v1,length=168472>
+##contig=<ID=chrUn_KI270745v1,length=41891>
+##contig=<ID=chrUn_KI270746v1,length=66486>
+##contig=<ID=chrUn_KI270747v1,length=198735>
+##contig=<ID=chrUn_KI270748v1,length=93321>
+##contig=<ID=chrUn_KI270749v1,length=158759>
+##contig=<ID=chrUn_KI270750v1,length=148850>
+##contig=<ID=chrUn_KI270751v1,length=150742>
+##contig=<ID=chrUn_KI270752v1,length=27745>
+##contig=<ID=chrUn_KI270753v1,length=62944>
+##contig=<ID=chrUn_KI270754v1,length=40191>
+##contig=<ID=chrUn_KI270755v1,length=36723>
+##contig=<ID=chrUn_KI270756v1,length=79590>
+##contig=<ID=chrUn_KI270757v1,length=71251>
+##contig=<ID=chrUn_GL000214v1,length=137718>
+##contig=<ID=chrUn_KI270742v1,length=186739>
+##contig=<ID=chrUn_GL000216v2,length=176608>
+##contig=<ID=chrUn_GL000218v1,length=161147>
+##contig=<ID=chrX,length=156040895>
+##contig=<ID=chrY,length=57227415>
+##contig=<ID=chrY_KI270740v1_random,length=37240>
+##content=strelka germline small-variant calls
+##INFO=<ID=END,Number=1,Type=Integer,Description="End position of the region described in this record">
+##INFO=<ID=BLOCKAVG_min30p3a,Number=0,Type=Flag,Description="Non-variant multi-site block. Non-variant blocks are defined independently for each sample. All sites in such a block are constrained to be non-variant, have the same filter value, and have sample values {GQX,DP,DPF} in range [x,y], y <= max(x+3,(x*1.3)).">
+##INFO=<ID=SNVHPOL,Number=1,Type=Integer,Description="SNV contextual homopolymer length">
+##INFO=<ID=CIGAR,Number=A,Type=String,Description="CIGAR alignment for each alternate indel allele">
+##INFO=<ID=RU,Number=A,Type=String,Description="Smallest repeating sequence unit extended or contracted in the indel allele relative to the reference. RUs are not reported if longer than 20 bases">
+##INFO=<ID=REFREP,Number=A,Type=Integer,Description="Number of times RU is repeated in reference">
+##INFO=<ID=IDREP,Number=A,Type=Integer,Description="Number of times RU is repeated in indel allele">
+##INFO=<ID=MQ,Number=1,Type=Integer,Description="RMS of mapping quality">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=GQX,Number=1,Type=Integer,Description="Empirically calibrated genotype quality score for variant sites, otherwise minimum of {Genotype quality assuming variant position,Genotype quality assuming non-variant position}">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Filtered basecall depth used for site genotyping. In a non-variant multi-site block this value represents the average of all sites in the block.">
+##FORMAT=<ID=DPF,Number=1,Type=Integer,Description="Basecalls filtered from input prior to site genotyping. In a non-variant multi-site block this value represents the average of all sites in the block.">
+##FORMAT=<ID=MIN_DP,Number=1,Type=Integer,Description="Minimum filtered basecall depth used for site genotyping within a non-variant multi-site block">
+##FORMAT=<ID=AD,Number=.,Type=Integer,Description="Allelic depths for the ref and alt alleles in the order listed. For indels this value only includes reads which confidently support each allele (posterior prob 0.51 or higher that read contains indicated allele vs all other intersecting indel alleles)">
+##FORMAT=<ID=ADF,Number=.,Type=Integer,Description="Allelic depths on the forward strand">
+##FORMAT=<ID=ADR,Number=.,Type=Integer,Description="Allelic depths on the reverse strand">
+##FORMAT=<ID=FT,Number=1,Type=String,Description="Sample filter, 'PASS' indicates that all filters have passed for this sample">
+##FORMAT=<ID=DPI,Number=1,Type=Integer,Description="Read depth associated with indel, taken from the site preceding the indel">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="Normalized, Phred-scaled likelihoods for genotypes as defined in the VCF specification">
+##FORMAT=<ID=PS,Number=1,Type=Integer,Description="Phase set identifier">
+##FORMAT=<ID=SB,Number=1,Type=Float,Description="Sample site strand bias">
+##FILTER=<ID=IndelConflict,Description="Indel genotypes from two or more loci conflict in at least one sample">
+##FILTER=<ID=SiteConflict,Description="Site is filtered due to an overlapping indel call filter">
+##FILTER=<ID=LowGQX,Description="Locus GQX is below threshold or not present">
+##FILTER=<ID=HighDPFRatio,Description="The fraction of basecalls filtered out at a site is greater than 0.4">
+##FILTER=<ID=HighSNVSB,Description="Sample SNV strand bias value (SB) exceeds 10">
+##FILTER=<ID=LowDepth,Description="Locus depth is below 3">
+##FILTER=<ID=NotGenotyped,Description="Locus contains forcedGT input alleles which could not be genotyped">
+##FILTER=<ID=PloidyConflict,Description="Genotype call from variant caller not consistent with chromosome ploidy">
+##FILTER=<ID=NoPassedVariantGTs,Description="No samples at this locus pass all sample filters and have a variant genotype">
+##bcftools_viewVersion=1.9+htslib-1.9
+##bcftools_viewCommand=view -f PASS /sc1/groups/bfx-red/projects/neusomatic/strand/benchmarking/runs/run06_011322/real/runs/neusomatic_ensemble_SNV_checkpoint_neusomatic_21-03-17-12-18-32_epoch1000/SNV_RS7_S5_A16_P3_O1_D2_BA_R3/caller/strelka/merged.variants.vcf.gz; Date=Sun Feb  6 08:26:57 2022
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SNV_RS7_S5_A16_P3_O1_D2_BA_R3_tumor
+chr1	20717668	.	A	G	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2161:87:1,2158:1,887:0,1271:-99:PASS:370,370,0
+chr1	20717726	.	A	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:1651:101:2,1649:2,460:0,1189:-99:PASS:370,370,0
+chr1	28812463	.	G	T	3070	PASS	SNVHPOL=5;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2215:164:0,2213:0,901:0,1312:-99:PASS:370,370,0
+chr1	70039098	.	C	T	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3778:126:1979,1798:1067,928:912,870:-99:PASS:370,0,370
+chr1	152759698	.	T	C	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3274:234:1539,1734:818,832:721,902:-99:PASS:370,0,370
+chr1	152759960	.	G	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3949:82:2,3946:1,2139:1,1807:-99:PASS:370,370,0
+chr1	152760091	.	G	A	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3542:147:1829,1711:992,929:837,782:-99:PASS:370,0,370
+chr1	152760825	.	T	A	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3948:332:1,3947:0,2437:1,1510:-99:PASS:370,370,0
+chr1	152761063	.	G	C	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3223:98:1586,1637:755,743:831,894:-99:PASS:370,0,370
+chr1	155208991	.	T	A	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:1604:160:782,822:337,338:445,484:-99:PASS:370,0,370
+chr1	175077653	.	A	G	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3168:280:2,3164:1,1741:1,1423:-99:PASS:370,370,0
+chr1	247424229	.	A	G	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3719:159:1913,1805:1148,1004:765,801:-99:PASS:370,0,370
+chr1	247875943	.	C	T	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2509:89:1274,1235:764,757:510,478:-99:PASS:370,0,370
+chr10	17617132	.	C	A	3070	PASS	SNVHPOL=5;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:1622:314:0,1622:0,949:0,673:-99:PASS:370,370,0
+chr10	17617150	.	C	T	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:1836:153:0,1836:0,1226:0,610:-99:PASS:370,370,0
+chr10	17991285	.	T	A	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3216:60:7,3209:4,1342:3,1867:-99:PASS:370,370,0
+chr10	43100520	.	A	G	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2975:95:2,2972:1,1394:1,1578:-99:PASS:370,370,0
+chr10	43111202	.	C	T	3070	PASS	SNVHPOL=6;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2816:109:1529,1287:943,832:586,455:-99:PASS:370,0,370
+chr10	43111239	.	A	G	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3314:91:7,3306:4,1936:3,1370:-99:PASS:370,370,0
+chr10	43114918	.	G	A	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:5431:158:2679,2752:1168,1404:1511,1348:-99:PASS:370,0,370
+chr10	43115007	.	T	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:4960:588:2209,2750:1474,1546:735,1204:-99:PASS:370,0,370
+chr10	43115110	.	C	T	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:5578:108:2789,2784:1271,1354:1518,1430:-99:PASS:370,0,370
+chr10	43116051	.	G	A	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:4697:294:2416,2279:1374,1329:1042,950:-99:PASS:370,0,370
+chr10	43116260	.	A	G	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:4594:275:2214,2380:1365,1340:849,1040:-99:PASS:370,0,370
+chr10	43116417	.	T	C	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:5236:152:2576,2660:1305,1338:1271,1322:-99:PASS:370,0,370
+chr10	43118395	.	G	T	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2926:102:1548,1378:861,778:687,600:-99:PASS:370,0,370
+chr10	53822123	.	G	A	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3266:53:1699,1566:760,734:939,832:-99:PASS:370,0,370
+chr10	53823145	.	G	T	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3470:96:1753,1717:904,779:849,938:-99:PASS:370,0,370
+chr11	20601429	.	G	A	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:1769:53:884,885:499,491:385,394:-99:PASS:370,0,370
+chr11	20601461	.	C	T	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:1872:173:1003,869:681,550:322,319:-99:PASS:370,0,370
+chr11	20601496	.	T	C	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2608:164:0,2608:0,1720:0,888:-99:PASS:370,370,0
+chr11	20601610	.	C	G	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2699:95:0,2698:0,936:0,1762:-99:PASS:370,370,0
+chr11	100191095	.	G	GAA,GAAA	3070	PASS	CIGAR=1M2I,1M3I;RU=A,A;REFREP=9,9;IDREP=11,12;MQ=60	GT:GQ:GQX:DPI:AD:ADF:ADR:FT:PL	1/1:2328:2328:3001:22,2182,329:12,1355,216:10,827,113:PASS:999,999,0,999,999,999
+chr11	104037356	.	C	T	3070	PASS	SNVHPOL=5;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2688:118:1407,1281:713,631:694,650:-99:PASS:370,0,370
+chr12	5045296	.	T	C	3070	PASS	SNVHPOL=8;MQ=57	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2329:61:1,2328:0,1175:1,1153:-99:PASS:370,370,0
+chr12	13865843	.	G	C	3070	PASS	SNVHPOL=5;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2968:161:1517,1449:940,916:577,533:-99:PASS:370,0,370
+chr12	57225426	.	C	G	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3056:3056:1037:243:2,1035:0,389:2,646:-99:PASS:370,370,0
+chr12	57225579	.	G	A	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2216:122:1117,1099:463,452:654,647:-99:PASS:370,0,370
+chr12	63150429	.	A	G	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:2963:2963:1021:39:3,1018:1,608:2,410:-99:PASS:370,370,0
+chr12	63150546	.	G	A	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:1509:88:778,731:386,322:392,409:-99:PASS:370,0,370
+chr12	63150821	.	C	T	1894	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:1927:1894:974:71:558,416:214,121:344,295:-98.9:PASS:370,0,370
+chr12	78007104	.	G	A	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3519:80:1858,1661:902,763:956,898:-99:PASS:370,0,370
+chr13	27792924	.	A	G	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2531:200:1241,1290:693,773:548,517:-99:PASS:370,0,370
+chr13	32316450	.	C	T	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2823:113:1430,1393:471,476:959,917:-99:PASS:370,0,370
+chr13	32329548	.	C	T	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3344:96:1745,1598:736,639:1009,959:-99:PASS:370,0,370
+chr13	32332343	.	A	C	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2672:65:1428,1244:547,516:881,728:-99:PASS:370,0,370
+chr13	32332843	.	A	G	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3266:159:1684,1581:860,743:824,838:-99:PASS:370,0,370
+chr13	32333398	.	CT	C	1148	PASS	CIGAR=1M1D;RU=T;REFREP=11;IDREP=10;MQ=60	GT:GQ:GQX:DPI:AD:ADF:ADR:FT:PL	0/1:1159:1148:3272:2130,758:917,304:1213,454:PASS:999,0,999
+chr13	32336584	.	T	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3307:89:1690,1616:808,769:882,847:-99:PASS:370,0,370
+chr13	32337326	.	A	G	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2467:85:1231,1236:545,551:686,685:-99:PASS:370,0,370
+chr13	32338445	.	A	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2970:75:1547,1423:716,652:831,771:-99:PASS:370,0,370
+chr13	32338918	.	A	G	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3436:91:0,3436:0,1614:0,1822:-99:PASS:370,370,0
+chr13	32340868	.	G	C	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2368:43:1,2366:0,1349:1,1017:-99:PASS:370,370,0
+chr13	32355250	.	T	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3307:79:1,3303:1,1398:0,1905:-99:PASS:370,370,0
+chr13	32362509	.	T	C	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2596:132:3,2591:2,1533:1,1058:-99:PASS:370,370,0
+chr13	83881652	.	G	GGGC	3070	PASS	CIGAR=1M3I;RU=GGC;REFREP=0;IDREP=1;MQ=60	GT:GQ:GQX:DPI:AD:ADF:ADR:FT:PL	0/1:3070:3070:4067:2645,829:2431,0:214,829:PASS:999,0,999
+chr13	83881745	.	AG	A	135	PASS	CIGAR=1M1D;RU=G;REFREP=1;IDREP=0;MQ=57	GT:GQ:GQX:DPI:AD:ADF:ADR:FT:PL	0/1:177:135:3782:2618,523:1503,3:1115,520:PASS:174,0,999
+chr13	83881751	.	G	GA	3070	PASS	CIGAR=1M1I;RU=A;REFREP=20;IDREP=21;MQ=57	GT:GQ:GQX:DPI:AD:ADF:ADR:FT:PL	0/1:2549:2549:3424:803,2012:343,823:460,1189:PASS:999,0,999
+chr13	83882250	.	C	CT	3070	PASS	CIGAR=1M1I;RU=T;REFREP=10;IDREP=11;MQ=60	GT:GQ:GQX:DPI:AD:ADF:ADR:FT:PL	0/1:3070:3070:4219:2027,1478:684,533:1343,945:PASS:999,0,999
+chr14	23418436	.	T	C	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2052:224:929,1123:497,529:432,594:-99:PASS:370,0,370
+chr14	28768512	.	G	A	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3670:171:1917,1753:844,719:1073,1034:-99:PASS:370,0,370
+chr14	92688192	.	TGGC	T	3070	PASS	CIGAR=1M3D;RU=GGC;REFREP=5;IDREP=4;MQ=60	GT:GQ:GQX:DPI:AD:ADF:ADR:FT:PL	1/1:3070:3070:3304:15,2755:8,1264:7,1491:PASS:999,999,0
+chr15	23566445	.	C	T	3070	PASS	SNVHPOL=5;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3238:135:1650,1588:838,793:812,795:-99:PASS:370,0,370
+chr15	24677083	.	C	G	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:4375:152:2191,2181:1068,1082:1123,1099:-99:PASS:370,0,370
+chr15	24678243	.	C	T	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3598:137:1768,1828:778,842:990,986:-99:PASS:370,0,370
+chr16	20032008	.	T	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3701:153:1827,1873:981,1014:846,859:-99:PASS:370,0,370
+chr16	26136133	.	G	T	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3322:88:1739,1583:1039,932:700,651:-99:PASS:370,0,370
+chr17	7676154	.	G	C	3070	PASS	SNVHPOL=6;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2560:419:1213,1347:624,770:589,577:-99:PASS:370,0,370
+chr17	7676325	.	CCCCCAGCCCTCCAGGT	C	3070	PASS	CIGAR=1M16D;RU=CCCCAGCCCTCCAGGT;REFREP=2;IDREP=1;MQ=59	GT:GQ:GQX:DPI:AD:ADF:ADR:FT:PL	1/1:2509:2509:3425:399,2592:387,997:12,1595:PASS:999,999,0
+chr17	39709752	.	C	T	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3068:80:9,3059:5,1633:4,1426:-99:PASS:370,370,0
+chr17	43092919	.	G	A	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3167:82:1603,1563:678,710:925,853:-99:PASS:370,0,370
+chr17	72123563	.	A	AC	3070	PASS	CIGAR=1M1I;RU=C;REFREP=4;IDREP=5;MQ=59	GT:GQ:GQX:DPI:AD:ADF:ADR:FT:PL	0/1:3070:3070:3917:2625,790:647,788:1978,2:PASS:999,0,999
+chr19	1004711	.	C	T	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:1325:226:715,610:387,311:328,299:-99:PASS:370,0,370
+chr19	1004741	.	T	C	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:1685:108:1,1684:0,937:1,747:-99:PASS:370,370,0
+chr19	1004809	.	C	T	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:1900:241:962,938:512,524:450,414:-99:PASS:370,0,370
+chr19	10489766	.	G	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3658:116:0,3654:0,1594:0,2060:-99:PASS:370,370,0
+chr19	10499560	.	A	G	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2719:209:1372,1347:716,754:656,593:-99:PASS:370,0,370
+chr19	17821329	.	T	C	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:1635:386:777,857:507,479:270,378:-99:PASS:370,0,370
+chr19	17821381	.	T	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:1823:315:948,875:400,422:548,453:-99:PASS:370,0,370
+chr19	17821455	.	C	T	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2300:178:1146,1154:576,597:570,557:-99:PASS:370,0,370
+chr19	57129778	.	A	G	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2397:44:1,2396:0,1121:1,1275:-99:PASS:370,370,0
+chr19	57130730	.	G	A	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2747:141:6,2741:5,1258:1,1483:-99:PASS:370,370,0
+chr19	57131414	.	C	A	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2197:60:0,2197:0,602:0,1595:-99:PASS:370,370,0
+chr19	58037998	.	C	G	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2384:98:1,2382:0,772:1,1610:-99:PASS:370,370,0
+chr2	29196725	.	G	T	3070	PASS	SNVHPOL=5;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2602:70:5,2597:2,1185:3,1412:-99:PASS:370,370,0
+chr2	29223835	.	T	C	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:4621:207:14,4607:6,2194:8,2413:-99:PASS:370,370,0
+chr2	29223855	.	A	G	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:4358:279:5,4353:2,1759:3,2594:-99:PASS:370,370,0
+chr2	29224387	.	A	G	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:5249:107:13,5236:7,2921:6,2315:-99:PASS:370,370,0
+chr2	29232401	.	A	G	3070	PASS	SNVHPOL=5;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3035:172:1447,1588:525,697:922,891:-99:PASS:370,0,370
+chr2	29275344	.	A	G	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2118:388:3,2115:3,1953:0,162:-99:PASS:370,370,0
+chr2	51027763	.	G	A	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:1986:363:1147,839:569,541:578,298:-99:PASS:370,0,370
+chr2	80302581	.	A	G	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:1607:69:796,811:286,302:510,509:-99:PASS:370,0,370
+chr2	80302831	.	T	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2644:125:1351,1293:909,836:442,457:-99:PASS:370,0,370
+chr2	225583019	.	C	T	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:1402:43:747,655:190,151:557,504:-99:PASS:370,0,370
+chr2	233760233	.	C	CAT	3070	PASS	CIGAR=1M2I;RU=AT;REFREP=7;IDREP=8;MQ=60	GT:GQ:GQX:DPI:AD:ADF:ADR:FT:PL	1/1:3070:3070:3366:266,2527:114,1237:152,1290:PASS:999,999,0
+chr20	33083793	.	A	G	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2685:470:1254,1430:350,484:904,946:-99:PASS:370,0,370
+chr20	33083857	.	T	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2098:124:4,2094:2,797:2,1297:-99:PASS:370,370,0
+chr20	45791998	.	G	A	2581	PASS	SNVHPOL=5;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:2614:2581:993:80:508,484:347,334:161,150:-99:PASS:370,0,370
+chr20	45792043	.	T	C	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:1816:54:2,1814:2,1389:0,425:-99:PASS:370,370,0
+chr3	73384218	.	G	A	3070	PASS	SNVHPOL=5;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2396:214:1263,1132:454,390:809,742:-99:PASS:370,0,370
+chr3	73384343	.	T	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2194:99:1155,1038:648,576:507,462:-99:PASS:370,0,370
+chr3	122913049	.	A	T	2130	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:1585:1585:670:141:307,363:67,143:240,220:-99:PASS:370,0,370
+chr3	183982738	.	T	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3151:115:1489,1662:998,1105:491,557:-99:PASS:370,0,370
+chr4	54263911	.	T	C	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3519:129:1823,1696:665,637:1158,1059:-99:PASS:370,0,370
+chr4	54267548	.	A	G	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL:PS	0|1:3070:3070:2656:86:1280,1376:718,674:562,702:-99:PASS:370,0,370:54267548
+chr4	54267559	.	T	G	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL:PS	1|0:3070:3070:2555:127:1286,1269:668,745:618,524:-99:PASS:370,0,370:54267548
+chr4	54267639	.	G	A	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2970:75:1484,1486:729,794:755,692:-99:PASS:370,0,370
+chr4	54267769	.	C	T	3070	PASS	SNVHPOL=8;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:1685:113:905,779:229,259:676,520:-99:PASS:370,0,370
+chr4	54273604	.	T	C	3070	PASS	SNVHPOL=5;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3031:96:1530,1499:707,714:823,785:-99:PASS:370,0,370
+chr4	54274888	.	A	G	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3352:117:1,3350:1,1692:0,1658:-99:PASS:370,370,0
+chr4	54277410	.	G	A	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3958:202:2004,1954:915,878:1089,1076:-99:PASS:370,0,370
+chr4	54285873	.	C	T	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3284:133:1704,1580:728,645:976,935:-99:PASS:370,0,370
+chr4	54295224	.	T	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3420:90:1,3419:0,1758:1,1661:-99:PASS:370,370,0
+chr4	54736599	.	G	C	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3254:121:1697,1555:829,737:868,818:-99:PASS:370,0,370
+chr4	56314307	.	C	A	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2427:274:1280,1146:684,600:596,546:-99:PASS:370,0,370
+chr4	56314410	.	C	CGGAGCGGAGGGAGCGGAG	3070	PASS	CIGAR=1M18I;RU=GGAGCGGAG;REFREP=1;IDREP=3;MQ=60	GT:GQ:GQX:DPI:AD:ADF:ADR:FT:PL	0/1:3070:3070:1848:777,763:354,332:423,431:PASS:999,0,999
+chr4	56314450	.	G	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:1637:96:872,764:400,373:472,391:-99:PASS:370,0,370
+chr4	56314754	.	C	A	3070	PASS	SNVHPOL=6;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2506:119:1340,1165:722,638:618,527:-99:PASS:370,0,370
+chr4	56315466	.	G	C	3070	PASS	SNVHPOL=7;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:1927:52:952,974:558,577:394,397:-99:PASS:370,0,370
+chr4	186636739	.	T	C	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3493:91:5,3487:2,1668:3,1819:-99:PASS:370,370,0
+chr5	22078475	.	C	T	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2861:106:1427,1434:708,742:719,692:-99:PASS:370,0,370
+chr5	33527202	.	A	G	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3694:139:1830,1864:1123,1226:707,638:-99:PASS:370,0,370
+chr5	35876172	.	A	G	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2907:95:1459,1448:598,629:861,819:-99:PASS:370,0,370
+chr5	63961168	.	G	A	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3028:103:1537,1491:708,665:829,826:-99:PASS:370,0,370
+chr5	63961426	.	C	T	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2440:127:1302,1138:631,545:671,593:-99:PASS:370,0,370
+chr5	112827157	.	T	C	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3522:98:1737,1785:836,885:901,900:-99:PASS:370,0,370
+chr5	112828864	.	G	A	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3209:100:8,3201:6,1838:2,1363:-99:PASS:370,370,0
+chr5	112840073	.	G	A	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3157:80:11,3144:3,1573:8,1571:-99:PASS:370,370,0
+chr5	112840628	.	G	A	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3326:114:9,3317:5,1582:4,1735:-99:PASS:370,370,0
+chr5	112840862	.	T	G	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3227:83:9,3218:3,1516:6,1702:-99:PASS:370,370,0
+chr5	112841059	.	T	A	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2664:144:0,2663:0,1322:0,1341:-99:PASS:370,370,0
+chr5	112841474	.	G	A	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3131:53:3,3128:1,1474:2,1654:-99:PASS:370,370,0
+chr5	157162574	.	A	G	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:4260:110:18,4242:9,2476:9,1766:-99:PASS:370,370,0
+chr5	157163344	.	A	G	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3080:103:13,3066:8,1681:5,1385:-99:PASS:370,370,0
+chr6	29943279	.	A	C	1282	PASS	SNVHPOL=3;MQ=11	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:400:400:134:7:0,134:0,21:0,113:-54.6:PASS:370,370,0
+chr6	29943287	.	A	G	1109	PASS	SNVHPOL=2;MQ=10	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:346:346:116:6:0,116:0,3:0,113:-14.6:PASS:370,349,0
+chr6	29943292	.	A	T	1092	PASS	SNVHPOL=3;MQ=10	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:343:343:115:5:0,115:0,2:0,113:-11.6:PASS:370,346,0
+chr6	29943337	.	G	A	59	PASS	SNVHPOL=3;MQ=6	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:18:18:7:3:0,7:0,0:0,7:0:PASS:97,21,0
+chr6	53652078	.	T	G	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2285:60:0,2285:0,673:0,1612:-99:PASS:370,370,0
+chr6	117310300	.	T	TTAA	3070	PASS	CIGAR=1M3I;RU=TAA;REFREP=6;IDREP=7;MQ=60	GT:GQ:GQX:DPI:AD:ADF:ADR:FT:PL	0/1:3070:3070:3003:1246,1005:519,430:727,575:PASS:999,0,999
+chr6	117321829	.	A	AT	3070	PASS	CIGAR=1M1I;RU=T;REFREP=20;IDREP=21;MQ=59	GT:GQ:GQX:DPI:AD:ADF:ADR:FT:PL	0/1:3070:3070:4246:1223,2124:530,896:693,1228:PASS:999,0,999
+chr6	117324499	.	T	C	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:4485:87:2251,2234:1237,1249:1014,985:-99:PASS:370,0,370
+chr6	117325961	.	A	G	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:4342:93:2222,2119:1012,969:1210,1150:-99:PASS:370,0,370
+chr6	117326091	.	TTATATA	T	3070	PASS	CIGAR=1M6D;RU=TA;REFREP=18;IDREP=15;MQ=59	GT:GQ:GQX:DPI:AD:ADF:ADR:FT:PL	0/1:2363:2363:2541:398,1365:235,775:163,590:PASS:999,0,999
+chr6	117327372	.	G	A	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:4649:120:2339,2305:1128,1091:1211,1214:-99:PASS:370,0,370
+chr6	117385821	.	C	T	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3603:75:1925,1678:757,602:1168,1076:-99:PASS:370,0,370
+chr6	130440653	.	T	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL:PS	0|1:3070:3070:3050:86:1556,1494:818,807:738,687:-99:PASS:370,0,370:130440653
+chr6	130440659	.	C	T	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL:PS	1|0:3070:3070:3019:88:1507,1511:853,856:654,655:-99:PASS:370,0,370:130440653
+chr6	130440812	.	A	G	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2855:94:1433,1422:636,616:797,806:-99:PASS:370,0,370
+chr6	165301971	.	G	C	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2691:94:4,2685:1,1328:3,1357:-99:PASS:370,370,0
+chr6	165302184	.	A	G	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3079:86:6,3073:4,1165:2,1908:-99:PASS:370,370,0
+chr7	43444711	.	T	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2682:82:1311,1371:654,702:657,669:-99:PASS:370,0,370
+chr7	53036101	.	C	T	3070	PASS	SNVHPOL=5;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2312:230:1231,1081:697,660:534,421:-99:PASS:370,0,370
+chr7	53036130	.	C	A	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2188:199:1172,1015:549,425:623,590:-99:PASS:370,0,370
+chr7	55171181	.	T	A	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3533:88:1786,1747:852,813:934,934:-99:PASS:370,0,370
+chr7	55181370	.	G	A	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2455:113:1304,1150:650,547:654,603:-99:PASS:370,0,370
+chr7	55192747	.	C	T	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3166:71:1739,1427:1067,923:672,504:-99:PASS:370,0,370
+chr7	55198724	.	T	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2596:161:1279,1317:890,939:389,378:-99:PASS:370,0,370
+chr7	55205469	.	G	A	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3006:260:1679,1327:807,607:872,720:-99:PASS:370,0,370
+chr7	106868272	.	C	T	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2668:109:1421,1247:787,683:634,564:-99:PASS:370,0,370
+chr7	106868533	.	A	G	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2641:68:1,2640:0,1535:1,1105:-99:PASS:370,370,0
+chr7	106868542	.	T	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2691:86:0,2691:0,1621:0,1070:-99:PASS:370,370,0
+chr7	116699067	.	G	A	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2273:84:1203,1070:792,690:411,380:-99:PASS:370,0,370
+chr7	116699618	.	C	T	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3735:170:1925,1810:1008,1017:917,793:-99:PASS:370,0,370
+chr7	116757518	.	A	G	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2830:57:1458,1372:700,667:758,705:-99:PASS:370,0,370
+chr7	140749271	.	C	G	3070	PASS	SNVHPOL=2;MQ=59	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3219:74:15,3204:8,1679:7,1525:-99:PASS:370,370,0
+chr7	140749350	.	T	C	3070	PASS	SNVHPOL=3;MQ=50	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3498:70:15,3483:7,1741:8,1742:-99:PASS:370,370,0
+chr7	140777927	.	T	C	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2799:55:1414,1384:951,939:463,445:-99:PASS:370,0,370
+chr7	147121058	.	T	C	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:2869:81:1446,1423:766,775:680,648:-99:PASS:370,0,370
+chr8	105801037	.	GTC	G	3070	PASS	CIGAR=1M2D;RU=TC;REFREP=3;IDREP=2;MQ=60	GT:GQ:GQX:DPI:AD:ADF:ADR:FT:PL	0/1:3070:3070:3293:1592,1499:1126,1101:466,398:PASS:999,0,999
+chr8	105801290	.	C	G	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3206:100:1602,1604:706,749:896,855:-99:PASS:370,0,370
+chr8	105801444	.	A	G	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3641:119:1898,1743:1087,1009:811,734:-99:PASS:370,0,370
+chr8	105801858	.	T	C	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3786:83:1916,1870:979,922:937,948:-99:PASS:370,0,370
+chr8	105802467	.	C	G	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3859:71:1954,1904:897,888:1057,1016:-99:PASS:370,0,370
+chr8	105803058	.	T	C	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3252:75:1675,1577:815,824:860,753:-99:PASS:370,0,370
+chr8	105803289	.	C	T	3070	PASS	SNVHPOL=2;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3421:113:1738,1683:943,852:795,831:-99:PASS:370,0,370
+chr8	109464764	.	A	G	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	0/1:3070:3070:3316:149:1651,1665:831,846:820,819:-99:PASS:370,0,370
+chr8	138152327	.	C	T	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2859:74:10,2849:7,1648:3,1201:-99:PASS:370,370,0
+chr8	138153029	.	T	C	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3001:142:8,2993:5,1616:3,1377:-99:PASS:370,370,0
+chr8	138153046	.	T	C	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:3039:112:8,3031:5,1769:3,1262:-99:PASS:370,370,0
+chr8	138153220	.	CAA	CA,C	3070	PASS	CIGAR=1M1D1M,1M2D;RU=A,A;REFREP=10,10;IDREP=9,8;MQ=60	GT:GQ:GQX:DPI:AD:ADF:ADR:FT:PL	1/1:3070:3070:3030:42,2482,67:20,1066,32:22,1416,35:PASS:999,999,0,999,999,999
+chrX	30308866	.	C	T	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:1695:253:1,1691:1,1046:0,645:-99:PASS:370,370,0
+chrX	37803981	.	G	A	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2461:143:4,2457:3,1346:1,1111:-99:PASS:370,370,0
+chrX	88754321	.	A	G	3070	PASS	SNVHPOL=3;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:1853:77:0,1851:0,681:0,1170:-99:PASS:370,370,0
+chrX	126164707	.	G	A	3070	PASS	SNVHPOL=4;MQ=60	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2320:98:0,2320:0,1049:0,1271:-99:PASS:370,370,0
+chrX	126165205	.	T	G	3070	PASS	SNVHPOL=4;MQ=57	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:1841:61:1,1840:0,787:1,1053:-99:PASS:370,370,0
+chrX	126165484	.	G	T	3070	PASS	SNVHPOL=2;MQ=55	GT:GQ:GQX:DP:DPF:AD:ADF:ADR:SB:FT:PL	1/1:3070:3070:2199:212:0,2198:0,1155:0,1043:-99:PASS:370,370,0
